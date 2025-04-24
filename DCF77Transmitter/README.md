@@ -17,7 +17,7 @@ The rough byte sent is:
 With the 0.2.0 version you can set your date to be sent. just use the procedure
 # dcf.putData()
 If used without parameters, the default value is transmitted. If, on the other hand, enter the parameters transmits the date you want. es:
-# dcf.putData(false, 30, 20, 5,1,7,25)
+dcf.putData(pe=false, mi=30, ho=20, dy=5, wd=1, mo=7, ye=25)
 where:
 ```
 pe = period of the year (indeed = / summer =)
