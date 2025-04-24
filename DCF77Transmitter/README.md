@@ -19,6 +19,7 @@ With the 0.2.0 version you can set your date to be sent. just use the procedure
 If used without parameters, the default value is transmitted. If, on the other hand, enter the parameters transmits the date you want. es:
 # dcf.putdata(false, 30, 20, 5,1,7,25)
 where:
+```
 pe = period of the year (indeed = / summer =)
 mi = minute (0.. 59)
 ho = hour (0..24)
@@ -26,3 +27,4 @@ dy = number of the day (1..31)
 wd = day of the week (1= Monday..... 7= Sunday)
 mo = mounth (1 = January .... 12 =Dicember)
 ye = year (last two number; es 2025 = 25 only) -- 2000 + 25!
+```
